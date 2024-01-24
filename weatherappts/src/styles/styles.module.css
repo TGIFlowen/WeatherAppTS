@@ -1,0 +1,29 @@
+.searchStyle {
+    width: 800px
+}
+
+.hourlyForecastOuterStyle {
+    display: grid;
+    grid-template-columns: repeat(12, auto);
+    grid-gap: 0px;
+    margin-bottom: 40px;
+}
+
+.hourlyForecastInnerStyle {
+    display: inline-block;
+    padding: 0px;
+    margin-bottom: 10px;
+}
+
+.weeklyForecastOuterStyle {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(2, auto);
+    margin-bottom: 40px;
+}
+
+.weeklyForecastInnerStyle {
+    display: inline-block;
+    padding: 0px;
+    margin-bottom: 10px;
+}
